@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<body>
+    <nav>
+        <video autoplay muted loop plays-inline>
+            <source src="/images/5363081-uhd_3840_2160_25fps.mp4">
+        </video>
+        <div class="navbar item1">
+            <ul>
+                <li>Home <div class="downarraow"><div></div></div></li>
+                <li>Our Hotel <div class="downarraow"><div></div></div></li>
+                <li>Rooms <div class="downarraow"><div></div></div></li>
+                <li>Contact <div class="downarraow"><div></div></div></li>
+            </ul>
+        </div>
+        <div class="navbar item2"> <img src="/images/kinsley-logo-m-wh.png" alt=""></div>
+        <div class="navbar item3">
+             <div class="menubutton"> 
+                <p>Menu</p>
+                <i class="fa-solid fa-grip-lines"></i>
+                
+            </div>
+             <div  class="btn1">
+                <button onclick="togglePopup()">
+                    <i class="fa-regular fa-bookmark"></i>
+                    Book Now
+             </button>
+            </div>
+    
+        </div>
+        <div class="main">
+            <div class="text-slider">
+                <div class="text-slide active">
+                    
+                    <p>&#9733 &#9733 &#9733 &#9733 &#9733</p>
+                        <p>RELAXATION ANT COMFORT AT OUR SEA HOTEL</p>
+                        <h1>
+                            BEACH RESORT
+                        </h1>
+                    </div>
+                <div class="text-slide">
+                    <p>&#9733 &#9733 &#9733 &#9733 &#9733</p>
+                    <p>BOOK YOUR STAY TODAY & DISCOVER ATTRACTIONS</p>
+                    <h1>
+                        LUXURY ROOM
+                    </h1>
+                </div>
+                <div class="text-slide">
+                    <p>&#9733 &#9733 &#9733 &#9733 &#9733</p>
+                    <p>EXPERIENCE A LEVEL OF COMFORT & ELEGANCE HOTEL</p>
+                    <h1>
+                        BOUTIQUE RESORT
+                    </h1></div>
+                    <div class="text-slide">
+                        <p>&#9733 &#9733 &#9733 &#9733 &#9733</p>
+                        <p>ENJOY STUNNING VIEWS OF THE CITY OR THE OCEAN</p>
+                        <h1>
+                            LODGES ROOMS
+                        </h1></div>
+                        <div class="text-slide">
+                            <p>&#9733 &#9733 &#9733 &#9733 &#9733</p>
+                            <p>RELAXATION ANT COMFORT AT OUR SEA HOTEL</p>
+                            <h1>
+                                BEACH RESORT
+                            </h1></div>
+            </div>
+
+        </div>
+    </nav>
+    <div class="content">
+        <div onclick="togglePopup()" class="close-btn"></div>
+        <h1>Search Your Room</h1>
+        <div>
+            <p>Check in</p>
+        <input type="date" placeholder="Check-in-date" onfocus="(this.type = 'date')">
+        </div>
+        <div>
+            <p>Check out</p>
+            <input type="date" placeholder="Chech-out-date"  onfocus="(this.type = 'date')">
+        </div>
+        <div>
+            <div>
+                <p>Adults</p>
+                <input type="text">
+            </div>
+            <div>
+                <p>Children</p>
+                <input type="text">
+            </div>
+        </div>
+    
+        
+        
+
+
+        </div>
+    </div>
+        
+        
+    </div>
+
+    <script src="scrip.js"></script>
+</body>
+</html>

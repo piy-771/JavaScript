@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box{
+        width: 300px;
+        border: 2px solid red;
+        padding: 30px;
+
+    }
+</style>
+<script>
+    function display(){
+        let obj = document.createElement("p");
+        obj.innerHTML = "Enter Subject : <input type='text'>";
+        document.querySelector(".box").appendChild(obj);
+    }
+</script>
+<body>
+    <button onclick="display()">Add</button>
+    <br>
+    <br>
+    <div class="box">
+        <p>Enter subject : <input type="text"></p>
+    </div>
+    
+    
+</body>
+</html>

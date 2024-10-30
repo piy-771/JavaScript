@@ -1,0 +1,10 @@
+{
+  "studenys" :[
+
+    {"id":1 , "name":"piyush" , "course":"fullstack"},
+    {"id":2 , "name":"rohan" , "course":"fullstack"},
+    {"id":3 , "name":"jitendra" , "course":"fullstack"},
+    {"id":4 , "name":"aman" , "course":"fullstack"}
+  ]
+
+}

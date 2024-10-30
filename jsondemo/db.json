@@ -1,0 +1,8 @@
+ {
+
+     "name" : "john doe",
+    "age" : 34,
+    "isEligible":true,
+    "shopping" : {"item":1,"brand":"gucci"},
+    "array1":["bhopal",{"id":1,"city":"indore"}]
+}

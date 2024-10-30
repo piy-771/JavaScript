@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="button_clicked()">Click here</button>
+    <button ondblclick="fun()">On double click</button>
+    <button onmouseenter="fun2()"> OnMouuseEnter </button>
+    <button onmouseleave="fun3()"> OnMouuseEnter </button>
+    <button onclick="increment()">+</button>
+    <button onclick="decrement()">-</button>
+    <h1 id="cal"> 0</h1>
+    
+
+    <!-- right click -->
+     <button oncontextmenu="fun1()">Right click</button>
+
+    <script>
+        function button_clicked(){
+            alert("event working")
+        }
+
+        function fun(){
+            alert("double working")
+        }
+
+        function fun1(){
+            alert("right working")
+        }
+
+        function fun2(){
+            alert("on mouse enter")
+        }
+
+        let num =document.getElementById("cal");
+        let v =0;
+        function increment(){
+            v++;
+             num.innerHTML = v;
+        }
+        function decrement(){
+            v--;
+            if(v>=0){
+                num.innerHTML = v;
+            }
+            
+        }
+
+    </script>
+</body>
+</html>

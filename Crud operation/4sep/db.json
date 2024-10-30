@@ -1,0 +1,39 @@
+{
+  "employees": [
+    {
+      "id": "2",
+      "employeeno": 2,
+      "name": "Anurag",
+      "salary": 300000,
+      "city": "Rewa"
+    },
+    {
+      "employeeno": "3",
+      "name": "jiya",
+      "city": "UP",
+      "salary": "50000",
+      "id": "3"
+    },
+    {
+      "id": "94da",
+      "employeeno": "5",
+      "name": "Aman",
+      "city": "SAgar",
+      "salary": "50000"
+    },
+    {
+      "id": "e8ca",
+      "employeeno": "96325",
+      "name": "Divyansh",
+      "city": "Chatisgarh",
+      "salary": "60000"
+    },
+    {
+      "id": "3297",
+      "employeeno": "25",
+      "name": "Piyush",
+      "city": "Indore",
+      "salary": "5666000"
+    }
+  ]
+}
